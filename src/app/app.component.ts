@@ -9,6 +9,9 @@ import {HeaderComponent} from "./core/header/header.component";
   imports: [CommonModule, RouterOutlet, HeaderComponent],
   template: `
     <app-header/>
+    <div class="p-5">
+    <router-outlet/>
+    </div>
   `
 })
 export class AppComponent {
